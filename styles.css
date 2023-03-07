@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    background: #1F2937;
+}
+.navbar{
+    display: flex;
+    width: 80%;
+    color: #F9FAF8;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    gap:8px;
+    font-size: 18px;
+    
+}
+.navbar a{
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
