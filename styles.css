@@ -50,9 +50,16 @@ ul{
 .main-img img{
     display: block;
     max-width:400px;
-    max-height:250px;
+    max-height:auto;
     width: auto;
     height: auto;
+}
+
+@media screen and (max-width:800px) {
+    img{
+        max-width: 200px;
+        max-height: 125px;
+    }
 }
 
 .head h1{
@@ -101,6 +108,7 @@ ul{
     display: flex;
     justify-content: space-evenly;
     width: 75%;
+    flex-wrap: wrap;
 }
 
 .container .card{
